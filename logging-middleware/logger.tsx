@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import logger from '../../logging-middleware/logger';
+import logger from './logger'; // Adjust the path as necessary
 
 const ShortUrlRedirect: React.FC = () => {
   const navigate = useNavigate();
